@@ -1,0 +1,7 @@
+name: Report Form
+description: Realising form for Report create/edit.
+core: 8.x
+package: Custom
+type: module
+libraries:
+  - report_form/global-styling

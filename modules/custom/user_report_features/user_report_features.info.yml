@@ -1,0 +1,12 @@
+name: 'User Report Features'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - field
+  - image
+  - node
+  - path
+  - text
+  - user
+version: 8.x-1.0

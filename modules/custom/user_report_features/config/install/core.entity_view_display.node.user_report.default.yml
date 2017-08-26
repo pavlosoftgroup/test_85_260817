@@ -1,0 +1,46 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.user_report.body
+    - field.field.node.user_report.field_report_date
+    - field.field.node.user_report.field_reporter
+    - node.type.user_report
+  module:
+    - datetime
+    - text
+    - user
+id: node.user_report.default
+targetEntityType: node
+bundle: user_report
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_report_date:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_reporter:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

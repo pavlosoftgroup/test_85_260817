@@ -1,0 +1,7 @@
+report_form:
+  path: '/report-form'
+  defaults:
+    _form:  '\Drupal\report_form\Form\ReportForm'
+    _title: 'Report Form'
+  requirements:
+    _permission: 'access content'
