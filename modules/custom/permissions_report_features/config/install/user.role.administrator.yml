@@ -1,0 +1,7 @@
+langcode: ru
+status: true
+dependencies: {  }
+id: administrator
+label: Администратор
+weight: 2
+is_admin: true

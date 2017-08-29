@@ -1,0 +1,16 @@
+name: 'Node Report Features'
+type: module
+core: 8.x
+dependencies:
+  - datetime
+  - field
+  - image
+  - language
+  - menu_ui
+  - node
+  - path
+  - report_form
+  - text
+  - user
+  - user_report_features
+version: 8.x-1.0

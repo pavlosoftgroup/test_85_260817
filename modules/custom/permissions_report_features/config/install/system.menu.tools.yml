@@ -1,0 +1,7 @@
+langcode: ru
+status: true
+dependencies: {  }
+id: tools
+label: Инструменты
+description: 'Ссылки инструментов пользователя, часто добавленные модулями'
+locked: true

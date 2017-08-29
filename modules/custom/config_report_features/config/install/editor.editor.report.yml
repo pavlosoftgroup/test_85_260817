@@ -1,0 +1,86 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - filter.format.report
+  module:
+    - ckeditor
+    - editor_file
+third_party_settings:
+  editor_file:
+    status: true
+    scheme: public
+    directory: inline-files
+    extensions: 'avi mp4'
+format: report
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Форматирование
+          items:
+            - Bold
+            - Italic
+        -
+          name: Ссылки
+          items:
+            - ImceLink
+            - DrupalUnlink
+        -
+          name: Списки
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Мультимедиа
+          items:
+            - DrupalFile
+            - ImceImage
+            - Blockquote
+        -
+          name: Инструменты
+          items:
+            - Source
+        -
+          name: CKEditor
+          items:
+            - EntityLink
+        -
+          name: Media
+          items:
+            - video_embed
+            - Embed
+            - video
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+    autoembed:
+      status: ''
+    wordcount:
+      enable: 1
+      show_paragraphs: 0
+      show_word_count: 0
+      show_char_count: 1
+      count_spaces: 1
+      count_html: 1
+      max_words: '-1'
+      max_chars: '255'
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

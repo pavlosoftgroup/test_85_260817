@@ -5,6 +5,7 @@
  **/
 
 
+
 /**
  * Implements hook_page_attachments().
  */
@@ -12,3 +13,5 @@ function report_form_page_attachments(array &$attachments) {
   $attachments['#attached']['library'][] =
     'report_form/global-styling';
 }
+
+

@@ -1,7 +1,7 @@
 report_form:
-  path: '/report-form'
+  path: '/add/user_report'
   defaults:
-    _form:  '\Drupal\report_form\Form\ReportForm'
-    _title: 'Report Form'
+    _controller: '\Drupal\report_form\Controller\ReportFormController::content'
+    _title: 'Add Report'
   requirements:
     _permission: 'access content'

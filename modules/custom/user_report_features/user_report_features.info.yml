@@ -6,7 +6,9 @@ dependencies:
   - field
   - image
   - node
+  - node_report_features
   - path
+  - report_form
   - text
   - user
 version: 8.x-1.0

@@ -1,0 +1,7 @@
+name: 'Permissions Report Features'
+type: module
+core: 8.x
+dependencies:
+  - system
+  - user
+version: 8.x-1.0
